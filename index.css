@@ -1,4 +1,5 @@
 .Katherine{
+
     width: 100%;
     height: 450px;
     background-color: #0B322B;
@@ -214,7 +215,7 @@ color: #BE6D54;
 
 .Posts{
    margin-top: 100px;
-
+   height: 600px;
 a{
     margin-left: 870px;
 transition: 1s;
@@ -223,6 +224,7 @@ font-size: 20px;
 color: #BE6D54;
     }
 }
+
 
 }
 .Posts h3{
@@ -244,11 +246,71 @@ color: #BE6D54;
 }
 .all-cards{
     display: flex;
+    justify-content: center;
     gap: 20px;
+    margin-top: 100px;
 }
 
-.girl line{
-border-bottom: 1px solid black;
-width: 20px;
+.line{
+border-bottom: 1px solid rgb(166, 161, 161);
+margin-left: 20px;
+}
+.fa-heart{
+    position: relative;
+    right: -200px;
+    color: red;
+}
+.fa-message{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Girl{
+
+
+    p{
+        width: 250px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .line{
+        padding-top: 15px;
+        margin-right: 20px;
+    }
+}
+.Pumpkin{
+
+    p{
+        width: 250px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .line{
+        margin-top: 37px;
+        margin-right: 20px;
+    }
+}
+.Buildings{
+   
+    p{
+        width: 250px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+     .line{
+        margin-top: 37px;
+        margin-right: 20px;
+    }
+}
+.Background{
+   position: relative;
+ img{
+      width: 100%;  
+      height: 400px;
+      object-fit: cover;
+      
+    }
 
 }

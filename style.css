@@ -45,7 +45,7 @@ nav ul a{
  }
 }
 nav h1{
-    font-size: 15px;
+    font-size: 25px;
 position: relative;
 right: -30px;
 color: #BE6D54;
@@ -75,4 +75,34 @@ color: #BE6D54;
 }
 .fa-bag-shopping{
     font-size: 20px;
+}
+footer{
+    .top-footer{
+        width: 100%;
+        height: 75px;
+        background-color:#E9E6DF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    ul{
+        display: flex;
+gap: 20px;
+        list-style: none;
+        margin-left: 250px;
+    }
+
+    .icons{
+        margin-right: 250px;
+    }
+    }
+
+    .bottom-footer{
+        width: 100%;
+        height: 75px;
+        background-color: #0B322B;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
