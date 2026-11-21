@@ -67,4 +67,12 @@ color: #BE6D54;
     display: flex;
     gap: 10px;
     padding-top: 10px;
+
+    a{
+    font-size: 20px;
+    color:#BE6D54;
+}
+}
+.fa-bag-shopping{
+    font-size: 20px;
 }
