@@ -1,0 +1,156 @@
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left>img{
+    height: 350px;
+}
+.left .bottom img:nth-child(1){   
+border: 1px solid black;
+margin-left: 120px;
+}
+.left .bottom img:nth-child(2){   
+border: 1px solid black;
+}
+.left p{
+    width: 400px;
+    text-align: center;
+    margin-left: 100px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s;
+}
+.right .header{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    h3{
+        font-size: 35px;
+    }
+    span{
+        color: black;
+    }
+
+}
+.right button{
+width: 200px;
+height: 30px;
+border: none;
+background-color: #BE6D54;
+color: white;
+}
+.quantity{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input{
+        width: 70px;
+        height: 30px;
+        border: 1px solid gray;
+        &:hover{
+            border: 1px solid black;
+        }
+    }
+}
+
+.productInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid #c8bfa6;
+    
+span{
+  color:  rgb(79, 73, 73);
+  
+}
+    .fa-minus{
+        display: none;
+    }
+    p{
+        display: none;
+        width: 400px;
+        
+    }
+    &:hover{
+        span .fa-plus{
+            display: none;
+        }
+        span .fa-minus{
+            display: unset;
+            margin-left: 235px;
+        }
+        p{
+            display: unset;
+
+        }
+    }
+}
+.refund{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     border-bottom: 1px solid #c8bfa6;
+    span{
+        color: rgb(79, 73, 73);
+        margin-top: 20px;
+    }
+    .fa-minus{
+        display: none;
+    }
+    p{
+        display: none;
+        text-align: center;
+        width: 400px;
+    }
+    &:hover{
+        span .fa-plus{
+            display: none;
+        }
+        span .fa-minus{
+            display: unset;   
+            margin-left: 235px;
+        }
+        p{
+            display: unset;
+
+        }
+    }
+}
+.shipping{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     border-bottom: 1px solid #c8bfa6;
+    span{
+        margin-top: 20px;
+    color: rgb(79, 73, 73);
+    }
+    .fa-minus{
+        display: none;
+    }
+    p{
+        display: none;
+        text-align: center;
+        width: 400px;
+    }
+    &:hover{
+        span .fa-plus{
+            display: none;
+        }
+        span .fa-minus{
+            display: unset;
+            transition: 0.5s;
+            margin-left: 235px;
+        }
+        p{
+            display: unset;
+
+        }
+    }
+}

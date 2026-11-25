@@ -1,0 +1,93 @@
+main{
+    height: 100vh;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.publications{
+    width: 100%;
+    background-color:#0B322B;
+    height: 130px;
+    padding: 25px 500px;
+
+    h1{
+        font-size: 60px;
+        color: #BE6D54;
+    }
+}
+.pages{
+    margin-top: 20px;
+    margin-left: 80px;
+    a{
+        &:hover{
+            color: gray;
+        }
+    }
+}
+select{
+    position: absolute;
+    right: 0;
+    margin-top: 60px;
+    margin-right: 150px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        color: gray;
+    }
+
+    option{
+        font-size: 15px;
+        color: rgb(93, 89, 89);
+    }
+}
+.Books{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 240px;
+   margin-top: 200px;
+}
+.Books div{
+    width: 300px;
+}
+.Books img{
+      width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.Books .line{
+    border-bottom: 1px solid black;
+    width: 30px;
+   display: flex;
+   margin-left: 140px;
+   margin-top:10px ;
+   margin-bottom: 10px; ;
+}
+.Books .book2{
+
+    .line{
+        margin-right: 285px;
+    }
+    img{
+        width: 100%;
+        height: 400px;
+
+    }
+}
+
+.Books .book1{
+    img{
+        width: 100%;
+        height: 400px;
+
+    }
+}
+.Books .book3{
+    img{
+        width: 100%;
+        height: 400px;
+
+    }
+}
