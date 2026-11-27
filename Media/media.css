@@ -7,7 +7,10 @@ main{
       width: 100%;
     background-color:#0B322B;
     height: 200px;
-    padding: 25px 500px;
+    /* padding: 25px 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     h1{
         font-size: 60px;
@@ -47,23 +50,145 @@ button{
 }
 }
     }
-    .bottomvideo{
+    .bottomvideos{
         display: flex;
         gap: 10px;
         video{
             width: 250px;
+           
         }
     }
 }
-.bottomvideo video:nth-child(1){
+
+.bottomvideos .video2{
+    position: relative;
+background-color: black;
+    p{
+    position: absolute;
+    top: 0;
+    left: -10px;
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: none;
+}
+
+video:hover{
+   
+    opacity: 0.5;
+
+}
+&:hover{
+    p{
+        display: unset;
+    }
+}
+}
+.bottomvideos .video3{
+position: relative;
+background-color: black;
+p{
+    position: absolute;
+    top: 0;
+    left: -10px;
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: none;
+}
+video:hover{
+
+    opacity: 0.5;
+
+}
+&:hover{
+    p{
+        display: unset;
+    }
+}
+
+}
+.bottomvideos .video4{
+position: relative;
+background-color: black;
+p{
+    position: absolute;
+    top: 0;
+    left: -10px;
+    color: white;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    display: none;
+    width: 300px;
+}
+video:hover{
+
+    opacity: 0.5;
+}
+
+&:hover{
+    p{
+        display: unset;
+    }
+}
+
+}
+
+
+
+.bottomvideos .video5{
+position: relative;
+width: 250px;
+height: 140px;
+background-color: black;
+span{
+    position: absolute;
+    top: 0;
+    left: -10px;
+    color: white;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 200px;
+    display: none;
     
 }
-.bottomvideo video:nth-child(2){
+.fa-circle-play{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    display: none;
+   
+
+
     
 }
-.bottomvideo video:nth-child(3){
+
+&:hover{
+    background-color: black;
     
+    span{
+        display: unset;
+    }
+    .fa-circle-play{
+        display: unset;
+    }
 }
-.bottomvideo video:nth-child(4){
-    
+
+
 }
+.bottomvideos .video2 video:hover{
+     opacity: 0.5;
+}
+.bottomvideos .video3 video:hover{
+     opacity: 0.5;}
+.bottomvideos .video4 video:hover{
+     opacity: 0.5;}
+.bottomvideos .video5 video:hover{
+     opacity: 0.4;}
